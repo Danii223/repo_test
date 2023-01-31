@@ -6,7 +6,7 @@ def nombre_premier(nombres):
             print("Nombres non supportés !")
             return None
     except TypeError:
-        print("Type non supportés !")
+        print("Type non supporté !")
         return None
     else:
         for i in range(nombres):
