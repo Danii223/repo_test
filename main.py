@@ -3,10 +3,10 @@
 def nombre_premier(nombres):
     try:
         if not nombres >= 0:
-            print("Nombres non supportés !")
+            print("Nombres non supportés par ce programme !")
             return None
     except TypeError:
-        print("Type non supporté !")
+        print("Type non supporté par ce programme !")
         return None
     else:
         for i in range(nombres):
